@@ -5,7 +5,6 @@ import IndexPage from './indexpage.tsx';
 function App() {
   return (
     <div className="App">
-      Hello
       <IndexPage/>
     </div>
   );
