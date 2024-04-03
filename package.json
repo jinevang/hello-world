@@ -19,6 +19,7 @@
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build"
   },
+  "homepage": "jinevang.github.io/hello-world",
   "eslintConfig": {
     "extends": [
       "react-app",
