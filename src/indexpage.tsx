@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import List from "./List.tsx";
 import CustomButton from "./CustomButton.tsx";
-import { ImageWithCaption, StyledIndexPage } from "./styled/index.tsx";
+import { StyledIndexPage } from "./styled/index.tsx";
 
 const shuffle = (array: string[]) => {
   for (let i = array.length - 1; i > 0; i--) {
@@ -15,11 +15,11 @@ const IndexPage = () => {
 
   const [list, randomizeList] = useState(['Bouldering', 'TP Tea', 'Dune', 'Music', 'Tennis', 'Piano', 'Hiking']);
 
-  return(<>
+  return(
   <StyledIndexPage>
     <h1>Hello World</h1>
     <h4>Hi, I'm Evan. This is for CSS 480.</h4>
-    <h5>Here's are some nice pictures I like</h5>
+    <h5>Here are some nice pictures I like</h5>
     <div>
       <img src={require('./assets/chunshuitang.jpg')} alt='Chunshuitang Boba' title='春水堂 珍珠奶茶'/>
       <img src={require('./assets/zaizaipiano.jpg')} alt='teaching my cousin how to play piano?' title='teaching my cousin how to play piano???'/>
@@ -31,17 +31,13 @@ const IndexPage = () => {
       <img src={require('./assets/lemon.jpg')} alt='lemon boulder' title='lemon shaped boulder'/>
     </div>
       <CustomButton display='Resort favorite things (best to worst???)' onClick={(e) => {
-        console.log('hello');
-        // e.preventDefault();
-        console.log(list);
         let newList = [...list];
         shuffle(newList);
-        console.log(newList);
         randomizeList(newList);
       }}/>
       <List items={list}/>
     </StyledIndexPage>
-  </>);
+  );
 }
 
 export default IndexPage;
