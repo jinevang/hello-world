@@ -20,7 +20,7 @@ const IndexPage = () => {
     <h1>Hello World</h1>
     <h4>Hi, I'm Evan. This is for CSS 480.</h4>
     <h5>Here are some nice pictures I like</h5>
-    <div>
+    <div tabIndex={1}>
       <img src={require('./assets/chunshuitang.jpg')} alt='Chunshuitang Boba' title='春水堂 珍珠奶茶'/>
       <img src={require('./assets/zaizaipiano.jpg')} alt='teaching my cousin how to play piano?' title='teaching my cousin how to play piano???'/>
       <img src={require('./assets/taipei101.JPG')} alt='taipei 101' title='台北101'/>
