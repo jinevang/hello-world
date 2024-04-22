@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledButton } from './styled/custom-button.tsx';
+import { StyledButton } from '../styled/custom-button.tsx';
 
 const CustomButton = ({onClick, display}: {onClick: any, display: string}) => {
   return (<StyledButton onClick={onClick}>
