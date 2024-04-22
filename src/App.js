@@ -7,7 +7,7 @@ import ThingsToRead from './pages/thingstoread.tsx';
 
 export default function App() {
   return (<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '12px 6px'}}>
-    <BrowserRouter>
+    <BrowserRouter basename='/hello-world'>
       <NavBar/>
       <Routes>
         <Route path='/' element={<IndexPage/>}/>
