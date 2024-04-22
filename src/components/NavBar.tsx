@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyledNavBar } from '../styled/nav-bar.tsx';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return(<StyledNavBar>
-    <span><a href='/home'>Home</a></span>
-    <span><a href='/things-to-read'>Things to Read</a></span>
+    <span><Link to='/home'>Home</Link></span>
+    <span><Link to='/things-to-read'>Things to Read</Link></span>
   </StyledNavBar>)
 };
 
