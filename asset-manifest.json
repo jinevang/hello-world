@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hello-world/static/css/main.9ff5f05d.css",
-    "main.js": "/hello-world/static/js/main.0c0c62cd.js",
+    "main.js": "/hello-world/static/js/main.ce92b47f.js",
     "static/js/453.20952338.chunk.js": "/hello-world/static/js/453.20952338.chunk.js",
     "static/media/greenmountain.jpg": "/hello-world/static/media/greenmountain.cbbd1c29d07a82df3d9f.jpg",
     "static/media/taipei101.JPG": "/hello-world/static/media/taipei101.bf96f8462a060ec1bb93.JPG",
@@ -11,14 +11,13 @@
     "static/media/lemon.jpg": "/hello-world/static/media/lemon.69ff407d0e8ffadf7768.jpg",
     "static/media/lukang.jpg": "/hello-world/static/media/lukang.3d5204ffdee722089d65.jpg",
     "static/media/ibhfc.jpg": "/hello-world/static/media/ibhfc.40a98e458b0b6200bbbe.jpg",
-    "static/media/logo.svg": "/hello-world/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hello-world/index.html",
     "main.9ff5f05d.css.map": "/hello-world/static/css/main.9ff5f05d.css.map",
-    "main.0c0c62cd.js.map": "/hello-world/static/js/main.0c0c62cd.js.map",
+    "main.ce92b47f.js.map": "/hello-world/static/js/main.ce92b47f.js.map",
     "453.20952338.chunk.js.map": "/hello-world/static/js/453.20952338.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ff5f05d.css",
-    "static/js/main.0c0c62cd.js"
+    "static/js/main.ce92b47f.js"
   ]
 }
