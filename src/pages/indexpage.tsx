@@ -16,20 +16,20 @@ const IndexPage = () => {
   const [list, randomizeList] = useState(['Bouldering', 'TP Tea', 'Dune', 'Music', 'Tennis', 'Piano', 'Hiking']);
 
   return(
-  <StyledIndexPage>
-    <h1>Hello World</h1>
-    <h4>Hi, I'm Evan. This is for CSS 480.</h4>
-    <h5>Here are some nice pictures I like</h5>
-    <div tabIndex={0}>
-      <img src={require('../assets/chunshuitang.jpg')} alt='Chunshuitang Boba' title='春水堂 珍珠奶茶'/>
-      <img src={require('../assets/zaizaipiano.jpg')} alt='teaching my cousin how to play piano?' title='teaching my cousin how to play piano???'/>
-      <img src={require('../assets/taipei101.JPG')} alt='taipei 101' title='台北101'/>
-      <img src={require('../assets/ibhfc.jpg')} alt='making some music' title='making some music'/>
-      <img src={require('../assets/lukang.jpg')} alt='lukang township near my hometown' title='鹿港 township near my hometown'/>
-      <img src={require('../assets/circlepic.jpg')} alt='circular mirror' title='circular mirror'/>
-      <img src={require('../assets/greenmountain.jpg')} alt='green mountain hike' title='green mountain hike'/>
-      <img src={require('../assets/lemon.jpg')} alt='lemon boulder' title='lemon shaped boulder'/>
-    </div>
+    <StyledIndexPage>
+      <h1>Hello World - Color & Styling Update</h1>
+      <h4>Hi, I'm Evan. This is for CSS 480.</h4>
+      <h5>Here are some nice pictures I like</h5>
+      <div tabIndex={0} style={{backgroundColor: '#ab99ff'}}>
+        <img src={require('../assets/chunshuitang.jpg')} alt='Chunshuitang Boba' title='春水堂 珍珠奶茶'/>
+        <img src={require('../assets/zaizaipiano.jpg')} alt='teaching my cousin how to play piano?' title='teaching my cousin how to play piano???'/>
+        <img src={require('../assets/taipei101.JPG')} alt='taipei 101' title='台北101'/>
+        <img src={require('../assets/ibhfc.jpg')} alt='making some music' title='making some music'/>
+        <img src={require('../assets/lukang.jpg')} alt='lukang township near my hometown' title='鹿港 township near my hometown'/>
+        <img src={require('../assets/circlepic.jpg')} alt='circular mirror' title='circular mirror'/>
+        <img src={require('../assets/greenmountain.jpg')} alt='green mountain hike' title='green mountain hike'/>
+        <img src={require('../assets/lemon.jpg')} alt='lemon boulder' title='lemon shaped boulder'/>
+      </div>
       <CustomButton display='Resort favorite things (best to worst???)' onClick={(e) => {
         e.preventDefault();
         let newList = [...list];

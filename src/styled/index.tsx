@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledIndexPage = styled.div`
   display: flex;
   flex-direction: column;
-  row-gap: 1px;
+  row-gap: 5px;
   align-items: center;
 
   width: 100%;
@@ -11,7 +11,7 @@ export const StyledIndexPage = styled.div`
   > div {
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 10px;
     align-items: center;
     white-space: nowrap;
 
