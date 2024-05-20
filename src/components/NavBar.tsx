@@ -6,7 +6,7 @@ const NavBar = () => {
   return(<StyledNavBar>
     <span><Link to='/home'>Home</Link></span>
     <span><Link to='/things-to-read'>Things to Read</Link></span>
-    <span><Link to={'/interesting'}>Interesting Page</Link></span>
+    <span><Link to='/interesting'>Interesting Page</Link></span>
   </StyledNavBar>)
 };
 

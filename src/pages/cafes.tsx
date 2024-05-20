@@ -9,7 +9,6 @@ const CafePage = () => {
         <h2>
           Cafes & Drink Ratings
         </h2>
-
         <div>
           <img src={require('../assets/storycafe.jpg')} alt='Story Cafe'/>
           <div>
@@ -19,7 +18,6 @@ const CafePage = () => {
             <p>Egg tart is great, the iced latte is great and not too milky. They had outlets under the bar area very nice!</p>
           </div>
         </div>
-
         <div>
           <div>
           <h3>You She Coffee 右舍咖啡</h3>
@@ -27,9 +25,8 @@ const CafePage = () => {
             <span>Studying/Work: 7/7 | Drinks: 7/7 | Food: 6/7</span>
             <p>Great studying view overlooking the Yuanlin park with big windows and great open space vibes, drink and food is great and good for studying or just grabbing a quick snack. Must drink: the Lemon Coffee - it sounds a little strange but its the perfect blend of a nice espresso shot and citrussy taste.</p>
           </div>
-          <img src={require('../assets/youshedownstairs.jpg')}/>
+          <img src={require('../assets/yousheinterior.jpg')}/>
         </div>
-
         <div>
           <img src={require('../assets/socialgrounds.jpg')}/>
           <div>
