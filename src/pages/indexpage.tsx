@@ -17,7 +17,7 @@ const IndexPage = () => {
 
   return(
     <StyledIndexPage>
-      <h1>Hello World - Color & Styling Update</h1>
+      <h1>Hello World - Interesting Update</h1>
       <h4>Hi, I'm Evan. This is for CSS 480.</h4>
       <h5>Here are some nice pictures I like</h5>
       <div tabIndex={0} style={{backgroundColor: '#ab99ff'}}>
