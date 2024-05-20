@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/hello-world/static/css/main.9ff5f05d.css",
-    "main.js": "/hello-world/static/js/main.5d004ce8.js",
+    "main.js": "/hello-world/static/js/main.7c0b5b3a.js",
     "static/js/453.20952338.chunk.js": "/hello-world/static/js/453.20952338.chunk.js",
     "static/media/greenmountain.jpg": "/hello-world/static/media/greenmountain.cbbd1c29d07a82df3d9f.jpg",
     "static/media/taipei101.JPG": "/hello-world/static/media/taipei101.bf96f8462a060ec1bb93.JPG",
     "static/media/socialgrounds.jpg": "/hello-world/static/media/socialgrounds.595f91717d0d08b920a2.jpg",
-    "static/media/youshedownstairs.jpg": "/hello-world/static/media/youshedownstairs.6157c9575d9e2c5d105b.jpg",
     "static/media/circlepic.jpg": "/hello-world/static/media/circlepic.7faaae50309211a037dc.jpg",
     "static/media/chunshuitang.jpg": "/hello-world/static/media/chunshuitang.fc3e37316a64d4d49bb2.jpg",
     "static/media/zaizaipiano.jpg": "/hello-world/static/media/zaizaipiano.97ea25001b464436376e.jpg",
     "static/media/lemon.jpg": "/hello-world/static/media/lemon.69ff407d0e8ffadf7768.jpg",
     "static/media/ourplace.jpg": "/hello-world/static/media/ourplace.8b9d8a9cfc6243c3d1ba.jpg",
     "static/media/lukang.jpg": "/hello-world/static/media/lukang.3d5204ffdee722089d65.jpg",
+    "static/media/yousheinterior.jpg": "/hello-world/static/media/yousheinterior.db65544c949545d72f84.jpg",
     "static/media/storycafe.jpg": "/hello-world/static/media/storycafe.a9955fd145ab676a57b3.jpg",
     "static/media/ibhfc.jpg": "/hello-world/static/media/ibhfc.40a98e458b0b6200bbbe.jpg",
     "index.html": "/hello-world/index.html",
     "main.9ff5f05d.css.map": "/hello-world/static/css/main.9ff5f05d.css.map",
-    "main.5d004ce8.js.map": "/hello-world/static/js/main.5d004ce8.js.map",
+    "main.7c0b5b3a.js.map": "/hello-world/static/js/main.7c0b5b3a.js.map",
     "453.20952338.chunk.js.map": "/hello-world/static/js/453.20952338.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ff5f05d.css",
-    "static/js/main.5d004ce8.js"
+    "static/js/main.7c0b5b3a.js"
   ]
 }
