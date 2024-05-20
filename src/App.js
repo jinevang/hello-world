@@ -3,6 +3,7 @@ import IndexPage from './pages/indexpage.tsx';
 import NavBar from './components/NavBar.tsx';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import ThingsToRead from './pages/thingstoread.tsx';
+import CafePage from './pages/cafes.tsx';
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <Route path='/' element={<IndexPage/>}/>
         <Route path='/home' element={<IndexPage/>}/>
         <Route path='/things-to-read' element={<ThingsToRead/>}/>
+        <Route path='/interesting' element={<CafePage/>}/>
       </Routes>
     </div>
   );

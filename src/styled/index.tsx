@@ -49,3 +49,53 @@ export const ImageWithCaption = styled.div`
     height: 100%;
   }
 `
+
+export const StyledInteresting = styled.div`
+
+  img {
+      width: 100vw;
+  }
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 25px;
+
+`
+
+export const InterestingBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  > div {
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    padding: 10px 12px;
+
+    img {
+      width: 25%;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    h5 {
+      font-weight: normal;
+    }
+
+    span {
+      font-size: 18px;
+    }
+  }
+`
