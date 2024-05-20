@@ -84,6 +84,8 @@ export const InterestingBody = styled.div`
 
     img {
       width: 25%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
     }
 
     h3 {
